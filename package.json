@@ -13,7 +13,7 @@
     "clean": "rimraf dist",
     "test": "jest -c ./config/test/jest.js --verbose",
     "test:watch": "npm run test -- --watchAll -i --no-cache",
-    "deploy": "gh-pages -d dist -b ejercicio2"
+    "deploy": "gh-pages -d dist -b master"
   },
   "author": "Lemoncode",
   "license": "MIT",
